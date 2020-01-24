@@ -1,0 +1,86 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>GenellestirmeTEZ</Name>
+  <AddInID>{9ab54f83-33dd-4196-9779-8f0cd6ecab91}</AddInID>
+  <Description>Genelleştirme işlemlerini içerir.</Description>
+  <Version>1.0</Version>
+  <Image>Images\Mavi.png</Image>
+  <Author>Kadir Şahbaz</Author>
+  <Company>YTU</Company>
+  <Date>05.08.2014</Date>
+  <Targets>
+    <Target name="Desktop" version="10.2" />
+  </Targets>
+  <AddIn language="CLR" library="Genellestirme.dll" namespace="Genellestirme">
+    <ArcMap>
+      <!-- PROGRAMA ADD-IN OLARAK EKLENECEK BUTONLAR -->
+      <Commands>
+        <Button caption="DENEME" id="YTU_Genellestirme_DENEME" class="DENEME" message="Deneme Description" tip="Deneme Tooltip" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="1. Blok (Ada) Olustur" id="YTU_Genellestirme_BlokAdaOlustur" class="BlokAdaOlustur" category="_TEZ" image="Images\Mavi.png" message="[[Blok_Ada]]"/>
+        <Button caption="2. Bina Büyüt/Abart" id="YTU_Genellestirme_BinaBuyut" class="BinaBuyut" category="_TEZ" image="Images\Mavi.png" message="[[Bina_Buyut, Binalar_Copy]]" />
+        <Button caption="3. Bina Basitleştir" id="YTU_Genellestirme_BinaBasitlestir" class="BinaBasitlestir" category="_TEZ" image="Images\Mavi.png" message="[[Binalar_Bst]]" />
+        <Button caption="4. Yoğun Alanlarda Yerleşim Alanı Genişlet" id="YTU_Genellestirme_YerlesimAlaniGenislet" class="YerlesimAlaniGenislet" message="Yerleşim alanı ile yakın binaları birleştirerek yeni yerleşim alanı oluşturur. [[Binalar_Buf_2, Yerlesim_Bina, Yerlesim_Bina_N, Yerlesim_TINEdge, Yerlesim_Bina_TINEdge, Yerlesim_Ara, Binalar_Yeni]]" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="5. Yoğun Bloklarda Yerleşim Alanı Oluştur" id="YTU_Genellestirme_YerlesimAlaniOlustur" class="YerlesimAlaniOlustur" message="Binaların ve yerleşim alanlarının yoğun oldukları bloklarda yerleşim alanı oluşturur. [[Yerlesim_Yogun, Binalar_Yeni2]]" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="6. Yerleşim Alanı Basitleştir" id="YTU_Genellestirme_YerlesimAlaniBasitlestir" class="YerlesimAlaniBasitlestir" message="Yerleşim alanlarını bloklara göre kırparak, Douglas-Peucker algoritması uygular. [[Yerlesim_Yeni]]" tip="Yerleşim Alanı Basitleştir" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="7. Bina Tampon Alanı Oluştur" id="YTU_Genellestirme_BinaTamponOlustur" class="BinaTamponOlustur" category="_TEZ" image="Images\Mavi.png" message="[[BinaTampon]]"/>
+        <Button caption="8. Voronoi Çokgenlerini Oluştur" id="YTU_Genellestirme_BinaKosesindenAraNoktaliVoronoi" class="BinaKosesindenAraNoktaliVoronoi" message="Bina köşelerine ara nokta ekleyerek Voronoi Çokgeni oluşturur. [[Binalar_Yeni2_N_Voronoi]]" tip="Bina köşelerine ara nokta ekleyerek Voronoi Çokgeni oluşturur." category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="9. Voronoi Bölgesi Oluştur" id="YTU_Genellestirme_VoronoiBolgesiOlustur" class="VoronoiBolgesiOlustur" category="_TEZ" image="Images\Mavi.png" message="[[BinaTamponClip, Voronoi_Line, Voronoi_5m, Voronoi_Bolgesi]]"/>
+        <Button caption="10. Genelleştirme Bölgesi Oluştur" id="YTU_Genellestirme_GenBolgesiOlustur" class="GenBolgesiOlustur" category="_TEZ" image="Images\Mavi.png" message="[[Genellestirme_Bolgesi, Genellestirme_Bolgesi_5m]]"/>
+        <Button caption="11. Genelleştirme Türü Belirle" id="YTU_Genellestirme_GenellestirmeTuruBelirle" class="GenellestirmeTuruBelirle" message="" tip="" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="12. Binaları Ele" id="YTU_Genellestirme_ElemeIslemi" class="ElemeIslemi" message="Genelleştirme türü Eleme olan binaları veri setinden çıkarır."  category="_Tez" image="Images\Mavi.png" />
+        <Button caption="13. Bina Tipikleştir" id="YTU_Genellestirme_GBBinaTipiklestir" class="GBBinaTipiklestir" message="Genelleştirme bölgesi içindeki bina gruplarını tipikleştirir. [[Bina_GB_Tipiklesmis]]" tip="Bina Tipikleştirme" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="Bina Tipikleştir (Vor.)" id="YTU_Genellestirme_BinaTipiklestir" class="BinaTipiklestir" category="_TEZ" message="Şu an bütün kümelerde tipikleştirme yapıyor" image="Images\Mavi.png" />
+        <Button caption="Otomatik Genelleştirme" id="YTU_Genellestirme_TumunuCalistir" class="TumunuCalistir" tip="Genelleştirme adımlarını sırasıyla çalıştırır." category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="Yolları Basitleştir" id="YTU_Genellestirme_YollariBasitlestir" class="YollariBasitlestir" category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="Temp" id="YTU_Genellestirme_Temp" class="Temp" message="" tip="" category="_TEZ" image="Images\Temp.png" />
+        <Button caption="Genelleştirme Türü Önizleme (JPG)" id="YTU_Genellestirme_ExportGbAsJPG" class="ExportGbAsJPG" category="_TEZ" image="Images\Temp.png" />
+        <Button caption="Bina Merkezinden Voronoi" id="YTU_Genellestirme_BinaMerkezindenVoronoi" class="BinaMerkezindenVoronoi" message="Bina merkez noktalarına ait Voronoi Çokgeni oluşturur." tip="Bina merkez noktalarına ait Voronoi Çokgeni oluşturur." category="_TEZ" image="Images\Mavi.png" />
+        <Button caption="Bina Köşelerinden Voronoi" id="YTU_Genellestirme_BinaKoselerindenVoronoi" class="BinaKoselerindenVoronoi" message="Bina köşe noktalarına ait Voronoi Çokgeni oluşturur." tip="Bina köşe noktalarına ait Voronoi Çokgeni oluşturur. " category="_TEZ" image="Images\Mavi.png" />
+      </Commands>
+      <!-- PROGRAMA EKLENECEK MENÜLER -->
+      <Menus>
+        <!--<Menu id="YTU_Genellestirme_Voronoi_Olustur" caption="Voronoi Oluştur" isRootMenu="false">
+          <Items>
+            <Button subtype="" refID="YTU_Genellestirme_BinaKoselerindenVoronoi" />
+            <Button refID="YTU_Genellestirme_BinaKosesindenAraNoktaliVoronoi" />
+          </Items>
+        </Menu>-->
+        <Menu id="YTU_Genellestirme_GEN" caption="BinaGEN" isRootMenu="true">
+          <Items>
+            <Menu refID="YTU_Genellestirme_Bina_Genellestirme" />
+            <Button refID="YTU_Genellestirme_ExportGbAsJPG" separator="true" />
+            <!--<Button refID="YTU_Genellestirme_DENEME" separator="true" />-->
+          </Items>
+        </Menu>
+        <Menu id="YTU_Genellestirme_Bina_Genellestirme" caption="Bina Genelleştirme  " isRootMenu="false">
+          <Items>
+            <Button refID="YTU_Genellestirme_BlokAdaOlustur" />
+            <Button refID="YTU_Genellestirme_BinaBuyut" />
+            <Button refID="YTU_Genellestirme_BinaBasitlestir" />
+            <Button refID="YTU_Genellestirme_YerlesimAlaniGenislet" />
+            <Button refID="YTU_Genellestirme_YerlesimAlaniOlustur" />
+            <Button refID="YTU_Genellestirme_YerlesimAlaniBasitlestir" />
+            <Button refID="YTU_Genellestirme_BinaTamponOlustur" />
+            <Button refID="YTU_Genellestirme_BinaKosesindenAraNoktaliVoronoi" />
+            <Button refID="YTU_Genellestirme_VoronoiBolgesiOlustur" />
+            <Button refID="YTU_Genellestirme_GenBolgesiOlustur" />
+            <Button refID="YTU_Genellestirme_GenellestirmeTuruBelirle" />
+            <Button refID="YTU_Genellestirme_ElemeIslemi" />
+            <Button refID="YTU_Genellestirme_GBBinaTipiklestir" />
+            <!--<Button refID="YTU_Genellestirme_BinaTipiklestir" />-->
+            <Button refID="YTU_Genellestirme_TumunuCalistir" separator="true" />
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="YTU_Genellestirme_GEN_1" caption="BinaGEN" showInitially="true">
+          <Items>
+            <Menu refID="YTU_Genellestirme_Bina_Genellestirme" />
+            <Button refID="YTU_Genellestirme_ExportGbAsJPG" separator="true" />
+            <!--<Button refID="YTU_Genellestirme_DENEME" />-->
+            <!--<Button refID="YTU_Genellestirme_Temp" separator="true" />-->
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>

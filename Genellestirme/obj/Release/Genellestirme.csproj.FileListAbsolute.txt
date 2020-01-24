@@ -1,0 +1,8 @@
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Release\Genellestirme.dll
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Release\Genellestirme.pdb
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Release\Genellestirme.InputForm.resources
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Release\Genellestirme.TabakaSecim.resources
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Release\Genellestirme.csproj.GenerateResource.Cache
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Release\Genellestirme.dll
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Release\Genellestirme.pdb
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Release\Genellestirme.esriAddIn

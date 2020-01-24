@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="FORMLAR">
+    <Position X="0.521" Y="3.854" Height="0.291" Width="1.492" />
+  </Comment>
+  <Comment CommentText="ARCGIS">
+    <Position X="0.5" Y="0.5" Height="0.291" Width="1.492" />
+  </Comment>
+  <Comment CommentText="SINIFLAR">
+    <Position X="3.25" Y="0.5" Height="0.291" Width="17.003" />
+  </Comment>
+  <Class Name="Genellestirme.BinaBasitlestir">
+    <Position X="16" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\03. BinaBasitlestir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BinaBuyut">
+    <Position X="16" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\02. BinaBuyut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.Temp" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Temp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BinaKoselerindenVoronoi">
+    <Position X="11.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\08.1. BinaKoselerindenVoronoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BinaKosesindenAraNoktaliVoronoi">
+    <Position X="18.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\08.2. BinaKosesindenAraNoktaliVoronoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BinaTamponOlustur">
+    <Position X="11.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\07. BinaTamponOlustur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BinaTipiklestir">
+    <Position X="18.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\11. BinaTipiklestir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.BlokAdaOlustur">
+    <Position X="13.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\01. BlokAdaOlustur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.GenBolgesiOlustur">
+    <Position X="13.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\10. GenBolgesiOlustur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.TumunuCalistir" Collapsed="true">
+    <Position X="0.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\TumunuCalistir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.VoronoiBolgesiOlustur">
+    <Position X="16" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\09. VoronoiBolgesiOlustur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.YerlesimAlaniBasitlestir">
+    <Position X="13.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\06. YerlesimAlaniBasitlestir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.YerlesimAlaniGenislet">
+    <Position X="18.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\04. YerlesimAlaniGenislet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.YerlesimAlanindakiBinalariSil">
+    <Position X="13.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\YerlesimAlanindakiBinalariSil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.YerlesimAlaniOlustur">
+    <Position X="16" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Buttons\05. YerlesimAlaniOlustur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.ThisAddIn" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAQAAAAAAgAAAAgAAAAAQAAAAAAAABAAAABAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.ArcMap" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAAAAAAAAAAAAAkAAAAACAEAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.DENEME" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>DENEME.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.InputForm" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
+      <FileName>Forms\InputForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.TabakaSecim" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAABAQAACAAAACAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\TabakaSecim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Genellestirme.Internal.AddInStartupObject" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAQAgAEAAAAAABBAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KadirSahbaz.BinaGEN">
+    <Position X="3.25" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>QEBAAgAAAEAAWASglAggAAAARgwABgiACpAAgAAAAAg=</HashCode>
+      <FileName>Sınıflar\BinaGEN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KadirSahbaz.Bina">
+    <Position X="7" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAFAAEAAQACAIAEQkKAAABKEAABARAAQRAQAUAABAE=</HashCode>
+      <FileName>Sınıflar\Bina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KadirSahbaz.BinaKumeVoronoi">
+    <Position X="9.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQBBAAEAAQACAAAEAkIAAABCEAABABABQQAAAUAAQAE=</HashCode>
+      <FileName>Sınıflar\BinaKumeVoronoi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KadirSahbaz.BinaMesafe">
+    <Position X="11.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAEAIEAAAAAAAAAAAAAAABAAAAAwAQQgI=</HashCode>
+      <FileName>Sınıflar\BinaMesafe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

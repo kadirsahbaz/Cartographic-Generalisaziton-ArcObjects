@@ -1,0 +1,31 @@
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csprojResolveAssemblyReference.cache
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.dll
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.pdb
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.dll
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.pdb
+C:\Users\A\documents\visual studio 2010\Projects\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.esriAddIn
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.dll
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.pdb
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csprojResolveAssemblyReference.cache
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.dll
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.pdb
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.InputForm.resources
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csproj.GenerateResource.Cache
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.dll
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.pdb
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csprojResolveAssemblyReference.cache
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.InputForm.resources
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csproj.GenerateResource.Cache
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.dll
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.pdb
+C:\Users\A\Desktop\TEfZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.esriAddIn
+C:\Users\A\Desktop\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.esriAddIn
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.dll
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.pdb
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csprojResolveAssemblyReference.cache
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.InputForm.resources
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.TabakaSecim.resources
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.csproj.GenerateResource.Cache
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.dll
+C:\TEZ\GenellestirmeTEZ\Genellestirme\obj\Debug\Genellestirme.pdb
+C:\TEZ\GenellestirmeTEZ\Genellestirme\bin\Debug\Genellestirme.esriAddIn
