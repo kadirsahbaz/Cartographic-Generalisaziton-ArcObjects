@@ -1,0 +1,1 @@
+# genellestirme_arcobjects
