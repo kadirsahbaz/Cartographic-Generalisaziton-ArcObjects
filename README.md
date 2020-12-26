@@ -1,3 +1,3 @@
-# genellestirme_arcobjects
+# Performing Cartographic Building Generalization using ArcObjects in C#
 
-Tek bina ve bir grup bina üzerinde genelleştirme işlemleri (Öteleme hariç)
+Contains some individual operators for cartographic building generalization. Documentation is in [BinaGEN.cs](https://github.com/kadirsahbaz/Cartographic-Generalisaziton-ArcObjects/blob/master/Genellestirme/S%C4%B1n%C4%B1flar/BinaGEN.cs) (in Turkish)
